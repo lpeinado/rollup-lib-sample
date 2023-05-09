@@ -1,0 +1,14 @@
+{
+  "name": "lib-sample",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/main.js",
+  "module": "dist/main.esm.js",
+  "license": "MIT",
+  "scripts": {
+		"build": "rollup --config"
+	},
+  "devDependencies": {
+    "rollup": "^3.21.5"
+  }
+}
